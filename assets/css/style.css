@@ -1,10 +1,3 @@
-/**
-* Template Name: iPortfolio - v2.0.3
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -129,6 +122,10 @@ h6 {
   text-decoration: none;
 }
 
+#header .profile .text-light {
+  margin-top: 20px;
+}
+
 #main {
   margin-left: 300px;
 }
@@ -228,7 +225,14 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/myself-back\ -\ Copy3.jpg") top center;
+  background: rgb(4, 11, 20);
+  background: radial-gradient(
+    circle,
+    rgba(4, 11, 20, 1) 0%,
+    rgba(13, 21, 32, 1) 0%,
+    rgba(14, 23, 36, 1) 0%,
+    rgba(5, 18, 34, 1) 100%
+  );
   background-size: cover;
 }
 
@@ -254,7 +258,7 @@ h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: rgb(5, 34, 87);
+  color: rgb(154, 184, 240);
 }
 
 #hero p {
@@ -298,7 +302,7 @@ section {
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: #afcbfb;
 }
 
 .section-title {
@@ -423,6 +427,8 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
+  font-size: 16px;
+
   font-family: "Poppins", sans-serif;
   color: #050d18;
 }
