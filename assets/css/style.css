@@ -427,7 +427,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 20px;
 
   font-family: "Poppins", sans-serif;
   color: #050d18;
@@ -514,6 +514,10 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
+.portfolio-bg {
+  background-color: #dbe5f3;
+}
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -616,7 +620,9 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
-  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
 }
 
 .services .icon {
