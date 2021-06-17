@@ -412,7 +412,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -425,7 +425,7 @@ section {
   padding: 0;
   margin: 0 0 6px 0;
   text-transform: uppercase;
-  display: block;
+  display:flex;
   font-weight: 600;
   font-size: 20px;
 
