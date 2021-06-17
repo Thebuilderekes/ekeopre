@@ -299,6 +299,8 @@ h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
+  
+  
 }
 
 .section-bg {
@@ -414,6 +416,10 @@ section {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
+.skills {
+  background: #040b14;
+}
+
 .skills .progress {
   height: 60px;
   display: block;
@@ -430,7 +436,7 @@ section {
   font-size: 20px;
 
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #ffffff;
 }
 
 .skills .progress .skill .val {
@@ -516,7 +522,7 @@ section {
 --------------------------------------------------------------*/
 
 .portfolio-bg {
-  background-color: #dbe5f3;
+  background-color: #EFEFF7;
 }
 .portfolio .portfolio-item {
   margin-bottom: 30px;
@@ -619,6 +625,16 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
+.services {
+  background-color: #040b14;;
+
+}
+
+.section-title .services-header, .section-title .skills-header {
+  color: #ffffff;
+}
+
 .services .icon-box {
   display: flex;
   align-items: center;
@@ -661,7 +677,7 @@ section {
 }
 
 .services .title a {
-  color: #343a40;
+  color: #ffffff;
 }
 
 .services .title a:hover {
