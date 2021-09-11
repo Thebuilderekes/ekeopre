@@ -7,7 +7,7 @@ body {
 }
 
 a {
-  color: #149ddd;
+  color: #fdfdfd;
   text-decoration: none;
 }
 
@@ -332,6 +332,7 @@ section {
 }
 
 .section-title p {
+  font-size: 18px;
   margin-bottom: 0;
 }
 
