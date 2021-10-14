@@ -151,7 +151,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	    /**
 	     * Reset Typed and optionally restarts
 	     * @param {boolean} restart
-	     * @public
 	     */
 	  }, {
 	    key: 'reset',
